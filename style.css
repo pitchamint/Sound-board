@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: darkslateblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.btn{
+    background: #fff;
+    border-radius: 10px;
+    border: none;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background: red;
+}
